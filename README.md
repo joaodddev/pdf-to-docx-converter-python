@@ -3,7 +3,7 @@
 Aplicação web desenvolvida em Python para conversão automática de arquivos PDF para DOCX, com interface interativa utilizando Streamlit.
 
 🔗 Aplicação online:
-[(Streamlit!)](https://pdf-to-docx-converter-python-ay4uz9xijejefpcfh8wx9r.streamlit.app/)
+[Streamlit!](https://pdf-to-docx-converter-python-ay4uz9xijejefpcfh8wx9r.streamlit.app/)
 
 ---
 
