@@ -1,5 +1,21 @@
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Arquivos gerados
 *.pdf
 *.docx
 convertidos/
+
+# Ambiente virtual
+venv/
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
