@@ -1,53 +1,67 @@
-# 🔄 PDF to DOCX Converter (Python)
+# 📄 DocuConvert — PDF to DOCX Web Application
 
-Sistema automatizado para conversão de arquivos PDF em DOCX utilizando Python.
+Aplicação web desenvolvida em Python para conversão automática de arquivos PDF para DOCX, com interface interativa utilizando Streamlit.
 
-Projeto desenvolvido com foco em automação de tarefas administrativas, manipulação de arquivos e organização de processos.
-
----
-
-## 🎯 Objetivo
-
-Automatizar a conversão de documentos PDF para arquivos editáveis (.docx), permitindo:
-
-- Processamento de múltiplos arquivos
-- Organização automática em pasta de saída
-- Tratamento de erros
-- Download automático dos arquivos convertidos
+🔗 Aplicação online:
+[(Streamlit!)](https://pdf-to-docx-converter-python-ay4uz9xijejefpcfh8wx9r.streamlit.app/)
 
 ---
 
-## 🚀 Demonstração
+# 🚀 Sobre o Projeto
 
-O sistema permite:
+O DocuConvert é uma aplicação web que permite:
 
-✔ Upload de múltiplos PDFs  
-✔ Conversão automática  
-✔ Organização dos arquivos convertidos  
-✔ Tratamento de exceções  
-✔ Download automático  
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-- Python 3
-- pdf2docx
-- Google Colab
-- Manipulação de arquivos com os
+Upload múltiplo de arquivos PDF
+Conversão automática para formato DOCX
+Download imediato do arquivo convertido
+Validação de entrada
+Tratamento de erros
+O projeto foi estruturado com separação de responsabilidades, visando boas práticas de desenvolvimento backend.
 
 ---
 
-## 📂 Estrutura do Projeto
+# 🧱 Arquitetura do Projeto
 
-pdf-to-docx-converter-python/
+pdf-to-docx-converter/
 │
-├── src/
-│   └── converter.py
-│
-├── notebooks/
-│   └── converter.ipynb
-│
+├── app.py              # Interface web (Streamlit)
+├── converter.py        # Regra de negócio (conversão)
+├── utils.py            # Validações auxiliares
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+Python 3.x
+Streamlit
+pdf2docx
+Deploy via Streamlit Cloud
+
+---
+
+# ⚙️ Como Executar Localmente
+
+git clone https://github.com/seu-usuario/pdf-to-docx-converter.git
+cd pdf-to-docx-converter
+pip install -r requirements.txt
+streamlit run app.py
+
+---
+
+# 📌 Conceitos Aplicados
+
+Arquitetura modular
+Separação de camadas
+Validação de entrada
+Tratamento de exceções
+Upload múltiplo de arquivos
+Deploy em produção
+
+---
+
+## 👨‍💻 Autor
+João Victor
+Python • Java • Automação • Análise de Dados
