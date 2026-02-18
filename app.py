@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="DocuConvert", page_icon="📄")
 
 st.title("📄 DocuConvert")
-st.markdown("Conversão automática de PDF para DOCX")
+st.markdown("### Converta PDFs em DOCX em segundos — simples e online.")
 
 uploaded_files = st.file_uploader(
     "Envie arquivos PDF",
