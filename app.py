@@ -14,6 +14,8 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True
 )
 
+st.info("Suporte para múltiplos arquivos • Validação automática • Processamento seguro")
+
 if uploaded_files:
     st.metric("Arquivos enviados", len(uploaded_files))
 
