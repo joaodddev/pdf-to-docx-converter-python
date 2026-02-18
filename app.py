@@ -1,6 +1,6 @@
 import streamlit as st
 from converter import convert_pdf_to_docx
-from utils import validar_arquivo
+import utils
 import os
 
 st.set_page_config(page_title="DocuConvert", page_icon="📄")
@@ -19,7 +19,7 @@ if uploaded_files:
 
     for uploaded_file in uploaded_files:
 
-        valido, erro = validar_arquivo(uploaded_file)
+        valido, erro = utils.validar_arquivo(uploaded_file)
 
         if not valido:
             st.error(erro)
